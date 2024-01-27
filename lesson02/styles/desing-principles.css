@@ -39,7 +39,7 @@ main article :not(div){
 }
 
 main img{
-    max-width: 400px;
+    max-width: 100%;
 }
 
 main article h2{
