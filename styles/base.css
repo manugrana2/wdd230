@@ -4,6 +4,7 @@ body{
 header{
     background-color: #1f4774;
     color: white;
+    padding: 10px;
 }
 nav{
     display: flex;
@@ -12,6 +13,9 @@ nav{
     gap: 20px;
     align-items: center;
     padding: 20px 0px;
+}
+nav.close{
+    display: none;
 }
 nav a{
     color: white;
@@ -27,6 +31,25 @@ header{
 header img{
     width: 100px;
 }
+
+#menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 32px;
+    padding: 0px 0.5rem;
+}
+
+#menu::before{
+    content: "≡";
+
+}
+
+#menu.close::before{
+    content: "X";
+
+}
+
 
 main{
     display: flex;
