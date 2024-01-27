@@ -28,11 +28,17 @@ header img{
     width: 100px;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
 main ul li{
     list-style-type: none;   
 }
 
-main h2 {
+h2 {
     text-align: center;
     border-bottom: 2px solid gray;
 }

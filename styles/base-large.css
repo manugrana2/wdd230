@@ -1,0 +1,16 @@
+@media screen and (min-width:640px) {
+
+
+    nav{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main{
+        flex-direction: row;
+    }
+
+
+    
+}
