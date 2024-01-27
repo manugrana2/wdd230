@@ -15,11 +15,14 @@ header{
 }
 main{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns:1fr;
     gap: 1rem;
     padding: 1rem;
 }
 main section{
     background-color: whitesmoke;
     padding: 2rem;
+}
+article img{
+    width: 200px;
 }
